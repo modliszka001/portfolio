@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio SEO | Twoje Imię i Nazwisko</title>
+  <meta name="description" content="Portfolio specjalistki SEO i marketingu. Case studies, audyty, projekty stron internetowych i materiały PDF do pobrania.">
+  <meta name="author" content="Twoje Imię i Nazwisko">
+
+  <meta property="og:title" content="Portfolio SEO | Twoje Imię i Nazwisko">
+  <meta property="og:description" content="Zobacz wybrane projekty SEO, strony internetowe i materiały PDF.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Główna nawigacja">
+      <a class="logo" href="#top">Portfolio SEO</a>
+      <div class="nav-links">
+        <a href="#o-mnie">O mnie</a>
+        <a href="#prace">Prace</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <p class="eyebrow">SEO • content marketing • strony internetowe</p>
+      <h1>Cześć, jestem <span>Twoje Imię</span>. Pomagam markom rosnąć dzięki SEO i dobrze zaprojektowanym treściom.</h1>
+      <p class="hero-text">
+        Tworzę strategie widoczności, optymalizuję strony, przygotowuję audyty SEO i buduję proste,
+        skuteczne witryny, które wspierają cele biznesowe.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#prace">Zobacz moje prace</a>
+        <a class="button secondary" href="mailto:twoj.email@example.com">Napisz do mnie</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section about" id="o-mnie">
+      <div>
+        <p class="section-label">O mnie</p>
+        <h2>Łączę SEO, analitykę i komunikację marketingową.</h2>
+      </div>
+      <div class="about-content">
+        <p>
+          Jestem specjalistką marketingu SEO. Pracuję nad widocznością stron w wyszukiwarce,
+          planuję content, analizuję dane i przygotowuję rekomendacje, które pomagają poprawiać
+          ruch organiczny oraz jakość doświadczenia użytkownika.
+        </p>
+        <p>
+          W moim portfolio znajdziesz przykłady stron internetowych, opracowań, audytów i materiałów,
+          które pokazują mój sposób myślenia o SEO, strukturze treści i estetycznej prezentacji projektu.
+        </p>
+
+        <ul class="skills" aria-label="Obszary specjalizacji">
+          <li>Audyty SEO</li>
+          <li>Strategie contentowe</li>
+          <li>Optymalizacja on-page</li>
+          <li>Research słów kluczowych</li>
+          <li>Proste strony WWW</li>
+          <li>Analityka marketingowa</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section work" id="prace">
+      <div class="section-heading">
+        <p class="section-label">Portfolio PDF</p>
+        <h2>Wybrane prace do pobrania</h2>
+        <p>
+          Poniżej możesz dodać kafelki z plikami PDF: case studies, audytami, prezentacjami lub przykładami stron.
+        </p>
+      </div>
+
+      <div class="cards">
+        <!--
+          JAK DODAĆ NOWY BLOK:
+          1. Skopiuj cały element <article class="card">...</article>.
+          2. Zmień tytuł w <h3>, opis w <p> i ścieżkę w href.
+          3. Plik PDF wrzuć do folderu: assets/pdf/
+          4. W href wpisz np. assets/pdf/nazwa-pliku.pdf
+        -->
+
+        <article class="card">
+          <div class="card-top">
+            <span class="tag">Strona WWW</span>
+            <span class="file-type">PDF</span>
+          </div>
+          <h3>Projekt strony internetowej dla marki usługowej</h3>
+          <p>
+            Krótki opis projektu: cel strony, zakres prac, najważniejsze decyzje UX/SEO
+            oraz efekt końcowy.
+          </p>
+          <a class="download-link" href="assets/pdf/projekt-strony-internetowej.pdf" download>
+            Pobierz PDF
+            <span aria-hidden="true">↓</span>
+          </a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="tag">SEO</span>
+            <span class="file-type">PDF</span>
+          </div>
+          <h3>Audyt SEO przykładowej strony</h3>
+          <p>
+            Przykład audytu z analizą struktury strony, meta danych, treści, linkowania wewnętrznego
+            i rekomendacjami optymalizacyjnymi.
+          </p>
+          <a class="download-link" href="assets/pdf/audyt-seo.pdf" download>
+            Pobierz PDF
+            <span aria-hidden="true">↓</span>
+          </a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="tag">Content</span>
+            <span class="file-type">PDF</span>
+          </div>
+          <h3>Plan contentowy oparty o research słów kluczowych</h3>
+          <p>
+            Materiał pokazujący sposób planowania tematów, intencji użytkownika, struktury treści
+            i priorytetów publikacji.
+          </p>
+          <a class="download-link" href="assets/pdf/plan-contentowy.pdf" download>
+            Pobierz PDF
+            <span aria-hidden="true">↓</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="kontakt">
+      <p class="section-label">Kontakt</p>
+      <h2>Porozmawiajmy o SEO, treściach lub Twoim projekcie.</h2>
+      <p>
+        Najłatwiej złapiesz mnie mailowo. Możesz też dodać tutaj link do LinkedIna, CV lub innego profilu.
+      </p>
+      <div class="contact-actions">
+        <a class="button primary" href="mailto:twoj.email@example.com">twoj.email@example.com</a>
+        <a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Twoje Imię i Nazwisko. Portfolio SEO.</p>
+  </footer>
+</body>
+</html>
