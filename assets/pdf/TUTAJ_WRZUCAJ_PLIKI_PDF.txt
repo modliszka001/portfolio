@@ -1,0 +1,2 @@
+W tym folderze umieszczaj swoje pliki PDF, np. audyt-seo.pdf.
+Nazwy plików najlepiej zapisuj małymi literami, bez spacji i polskich znaków.
