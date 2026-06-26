@@ -33,7 +33,7 @@ a {
   color: inherit;
 }
 
-/* GŁÓWNA SZEROKOŚĆ STRONY */
+
 
 .site-header,
 main,
@@ -42,7 +42,7 @@ main,
   margin: 0 auto;
 }
 
-/* NAWIGACJA */
+
 
 .nav {
   display: flex;
@@ -74,7 +74,7 @@ main,
   color: var(--text);
 }
 
-/* HERO */
+
 
 .hero {
   display: grid;
@@ -164,7 +164,7 @@ h1 span {
   border: 1px solid var(--line);
 }
 
-/* KARTA PO PRAWEJ W HERO */
+
 
 .hero-card {
   width: 100%;
@@ -219,7 +219,7 @@ h1 span {
   margin-right: 10px;
 }
 
-/* SEKCJE */
+
 
 .section {
   padding: 82px 0;
@@ -249,7 +249,7 @@ h2 {
   max-width: 690px;
 }
 
-/* LICZBY W SEKCJI O MNIE */
+
 
 .highlights {
   display: grid;
@@ -281,7 +281,7 @@ h2 {
   font-weight: 700;
 }
 
-/* UMIEJĘTNOŚCI */
+
 
 .skills {
   display: flex;
@@ -309,7 +309,7 @@ h2 {
   background: rgba(155, 93, 229, 0.10);
 }
 
-/* PORTFOLIO */
+
 
 .section-heading {
   max-width: 720px;
@@ -372,7 +372,7 @@ h2 {
   background: var(--text);
 }
 
-/* KONTAKT */
+
 
 .contact {
   text-align: center;
@@ -413,7 +413,7 @@ h2 {
   background: #fffaf3;
 }
 
-/* STOPKA */
+
 
 .footer {
   color: var(--muted);
@@ -422,7 +422,7 @@ h2 {
   border-top: 1px solid var(--line);
 }
 
-/* RESPONSYWNOŚĆ */
+
 
 @media (max-width: 1080px) {
   .hero {
